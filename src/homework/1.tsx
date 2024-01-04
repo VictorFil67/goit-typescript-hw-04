@@ -1,8 +1,8 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, ReactNode } from 'react';
 
 // Опишіть Props
 interface Props {
-  children: string[]
+  children: ReactNode;
   onContentEndVisible: ()=>void;
 }
 
